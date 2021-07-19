@@ -1,5 +1,5 @@
 {
-    "root": "PortfolioResponsiveWebsite",
+    "root": "build/",
     "clean_urls": true,
     "https_only": true,
     "error_page": "index.html",
