@@ -1,5 +1,5 @@
 {
-    "root": "PortfolioResponsiveWebsite/",
+    "root": "public/",
     "headers": {
         "/**": {
             "Access-Control-Allow-Origin": "*"
