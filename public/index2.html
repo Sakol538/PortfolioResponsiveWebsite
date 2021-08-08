@@ -778,7 +778,6 @@
             sendMessage.addEventListener('click', () => {
                 sendEmail();
             });
-            document.addEventListener('contextmenu', event => event.preventDefault());
             function sendEmail() {
                 let btn = document.getElementById('sendMessage');
                 if (btn.text.trim() === 'Send Message') {
@@ -844,6 +843,7 @@
                     return false;
                 }
             }
+            document.addEventListener('contextmenu', event => event.preventDefault());
         </script>
     </body>
 </html>
