@@ -776,6 +776,7 @@
             sendMessage.addEventListener('click', () => {
                 sendEmail();
             });
+            document.addEventListener('contextmenu', event => event.preventDefault());
             function sendEmail() {
                 let btn = document.getElementById('sendMessage');
                 if (btn.text.trim() === 'Send Message') {
