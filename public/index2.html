@@ -584,6 +584,31 @@
                                 <div class="testimonial__content">
                                     <div class="testimonial__data">
                                         <div class="testimonial__header">
+                                            <img src="assets/img/unknown.png" alt="" class="testimonial__img">
+                                            <div>
+                                                <h3 class="testimonial__name">Sahl</h3>
+                                                <span class="testimonial__client">Client</span>
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <i class="uil uil-star testimonial__icon-start"></i>
+                                            <i class="uil uil-star testimonial__icon-start"></i>
+                                            <i class="uil uil-star testimonial__icon-start"></i>
+                                            <i class="uil uil-star testimonial__icon-start"></i>
+                                            <i class="uil uil-star testimonial__icon-start"></i>
+                                        </div>
+                                    </div>
+                                    <p class="testimonial__description">
+                                        coming soon...
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!--<div class="testimonial__content swiper-slide">
+                            <div>
+                                <div class="testimonial__content">
+                                    <div class="testimonial__data">
+                                        <div class="testimonial__header">
                                             <img src="assets/img/testimonial1.jpg" alt="" class="testimonial__img">
                                             <div>
                                                 <h3 class="testimonial__name">Sara Smith</h3>
@@ -653,7 +678,7 @@
                                     </p>
                                 </div>
                             </div>
-                        </div>
+                        </div>-->
                     </div>
                     <div class="swiper-pagination swiper-pagination-testimonial"></div>
                 </div>
@@ -670,7 +695,7 @@
                             <i class="uil uil-phone contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Call Me</h3>
-                                <span class="contact__subtitle">+91-779-553-3560</span>
+                                <span class="contact__subtitle">+49-157-8320-6786</span>
                             </div>
                         </div>
                         <div class="contact__information">
@@ -684,7 +709,7 @@
                             <i class="uil uil-map-marker contact__icon"></i>
                             <div>
                                 <h3 class="contact__title">Location</h3>
-                                <span class="contact__subtitle">frankfurt, Germany</span>
+                                <span class="contact__subtitle">Germany</span>
                             </div>
                         </div>
                     </div>
@@ -806,26 +831,6 @@
                     alert('Request call in progress, please wait or refresh the page and submit details again!!');
                 }
             }
-            document.onkeydown = function(e) {
-                if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) {
-                    return false;
-                } else if(event.keyCode == 123) {
-                    return false;
-                } else if(e.ctrlKey && e.shiftKey && e.keyCode == 'I'.charCodeAt(0)) {
-                    return false;
-                } else if(e.ctrlKey && e.shiftKey && e.keyCode == 'C'.charCodeAt(0)) {
-                    return false;
-                } else if(e.ctrlKey && e.shiftKey && e.keyCode == 'J'.charCodeAt(0)) {
-                    return false;
-                } else if(e.ctrlKey && e.keyCode == 'U'.charCodeAt(0)) {
-                    return false;
-                } else {
-                    return true;
-                }
-            };
-            document.addEventListener('contextmenu', e => {
-                e.preventDefault();
-            });
         </script>
     </body>
 </html>
